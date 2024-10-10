@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Kit Kat Flavors Activities</title>
+    <style>
+        /* Setting background color for the page */
+        body {
+            background-color: #95eeba; /* Light Green background */
+            font-family: Arial, sans-serif; /* Modern font style */
+        }
+        .container {
+            width: 80%; /* Controlling the width of the content */
+            margin: auto; /* Centering the container */
+        }
+        h1 {
+            color: #ff4500; /* Header color */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        /* Navigation link styles */
+        nav {
+            text-align: right; /* Align links to the right */
+            margin-bottom: 20px; /* Space below navigation */
+        }
+        nav a {
+            float: right; /* Float links to the right */
+            padding: 10px; /* Add padding around links */
+            text-decoration: none; /* Remove underline */
+            color: #ff4500; /* Link color */
+        }
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="activities.html">ACTIVITIES</a>
+    </nav>
+
+    <div class="container">
+        <!-- Main title of the page -->
+        <h1>Submit Your Kit Kat Flavor!</h1>
+
+        <!-- Form for submitting new Kit Kat flavors -->
+        <form action="submit_flavor.php" method="POST">
+            <label for="flavor-name">Flavor Name:</label>
+            <input type="text" id="flavor-name" name="flavor-name" required>
+
+            <label for="flavor-description">Description:</label>
+            <input type="text" id="flavor-description" name="flavor-description" required>
+
+            <button type="submit">Add Flavor</button>
+        </form>
+
+        <!-- Section for displaying popular Kit Kat flavors -->
+        <h2>Popular Kit Kat Flavors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flavor Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matcha Green Tea</td>
+                    <td>A delightful blend of chocolate and earthy matcha.</td>
+                </tr>
+                <tr>
+                    <td>Strawberry</td>
+                    <td>Sweet and fruity, a favorite among many.</td>
+                </tr>
+                <tr>
+                    <td>Wasabi</td>
+                    <td>A surprising kick of heat with a chocolate twist.</td>
+                </tr>
+                <tr>
+                    <td>Sweet Potato</td>
+                    <td>A unique flavor inspired by Japanese sweet potatoes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
