@@ -1,0 +1,3 @@
+This week, I improved my Japanese Kit Kat flavors website by implementing balance concepts. By increasing the whitespace and improving readability and organization, the content width was changed to 80%. The vibrant Kit Kat wrapper was well-highlighted by the light blue background.
+
+The playful tone was retained in my final design, but it needed to be adjusted for greater balance. At first, the arrangement seemed constrained, but introducing spaces between portions made it flow better. Although I had trouble with spacing, I played with the float and margin attributes for picture alignment, which added visual appeal. I was able to get a more cohesive layout by carefully modifying my CSS, which highlights the value of experimentation in web design.
