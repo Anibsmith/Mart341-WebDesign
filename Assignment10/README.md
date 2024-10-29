@@ -1,0 +1,5 @@
+- **External CSS Style Sheet:** This allows for consistent styling across multiple pages and better maintainability.
+- **Class Selector:** Used for styling multiple elements, such as `.question` for all FAQs.
+- **ID Selector:** Used for unique styling on the FAQ section, enhancing its distinct appearance.
+- **Different Background Colors:** To improve visual hierarchy and readability.
+- **Different Font Colors:** To ensure contrast and improve text visibility.

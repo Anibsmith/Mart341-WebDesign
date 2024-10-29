@@ -1,0 +1,29 @@
+body {
+    background-color: #e0f7fa; /* Light blue background for the entire page */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Font style for the text */
+    margin: 0;
+    padding: 20px; /* Add padding to the body */
+}
+
+header {
+    background-color: #00796b; /* Dark teal background for header */
+    color: white; /* White text for the header */
+    padding: 10px 0; /* Padding around the header */
+    text-align: center; /* Center the header text */
+}
+
+#faq {
+    background-color: #ffffff; /* White background for the FAQ section */
+    padding: 20px; /* Padding for the FAQ section */
+    border: 2px solid #00796b; /* Border around the FAQ section */
+    border-radius: 8px; /* Rounded corners for the border */
+}
+
+.question {
+    background-color: #f1f8e9; /* Light green background for each question */
+    border: 1px solid #388e3c; /* Green border for questions */
+    margin: 10px 0; /* Margin between questions */
+    padding: 10px; /* Padding inside question boxes */
+    border-radius: 4px; /* Rounded corners for question boxes */
+}
