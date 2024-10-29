@@ -1,5 +1,6 @@
-- **External CSS Style Sheet:** This allows for consistent styling across multiple pages and better maintainability.
-- **Class Selector:** Used for styling multiple elements, such as `.question` for all FAQs.
-- **ID Selector:** Used for unique styling on the FAQ section, enhancing its distinct appearance.
-- **Different Background Colors:** To improve visual hierarchy and readability.
-- **Different Font Colors:** To ensure contrast and improve text visibility.
+External CSS Style Sheet: The link element in the <head> section links the HTML file to the external CSS file (style.css), allowing styles to be applied from that file.
+Class Selector: The .question class selector styles all div elements with the class question, applying specific styles like background color, border, margin, and padding.
+ID Selector: The #faq ID selector applies styles to the section with the ID faq, giving it a unique background color, border, padding, and rounded corners.
+Different Background Colors: The body, header, FAQ section, and question boxes all have different background colors to enhance visual separation.
+Different Font Colors: The header has a contrasting white text color against its dark background, improving readability.
+Borders: The FAQ section and each question have borders that visually separate them from other elements on the page.
