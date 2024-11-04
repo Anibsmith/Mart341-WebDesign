@@ -1,9 +1,11 @@
-/* Self-hosted Font */
-@font-face {
-    font-family: 'MyCustomFont';
-    src: url('fonts/MyCustomFont.woff2') format('woff2');
+body {
+    font-family: 'Baloo', sans-serif;
 }
 
+/* Optionally, specify Baloo for headers only */
+h1, h2, h3 {
+    font-family: 'Baloo', sans-serif;
+}
 /* General Styling */
 body {
     font-family: 'Roboto', sans-serif;
