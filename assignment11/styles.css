@@ -1,0 +1,60 @@
+/* Self-hosted Font */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2');
+}
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Page-specific Styling */
+h1, h2 {
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
