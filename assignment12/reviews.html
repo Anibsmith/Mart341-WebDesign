@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reviews</title>
+    <style>
+        /* Sizing */
+        .review-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .review {
+            width: 100%;
+            height: 150px;
+            overflow: auto; /* Overflow management */
+            border: 1px solid #ccc; /* Border for emphasis */
+            margin: 20px 0; /* Margin to separate reviews */
+            padding: 15px; /* Padding inside the review box */
+            display: inline-block; /* Display control for layout */
+            box-sizing: border-box;
+        }
+        .review img {
+            width: 50px; /* Sizing for avatar image */
+            height: 50px;
+            display: inline-block;
+            vertical-align: top; /* Align image and text */
+            margin-right: 10px;
+        }
+        .review-content {
+            display: inline-block;
+            width: calc(100% - 70px); /* Adjust width for inline elements */
+        }
+    </style>
+</head>
+<body>
+    <div class="review-container">
+        <h1>Customer Reviews</h1>
+
+        <!-- Review 1 -->
+        <div class="review">
+            <img src="avatar1.jpg" alt="User Avatar">
+            <div class="review-content">
+                <p><strong>John Doe</strong></p>
+                <p>Great product! I use it every day. The quality is excellent and it exceeded my expectations. Highly recommend!</p>
+            </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review">
+            <img src="avatar2.jpg" alt="User Avatar">
+            <div class="review-content">
+                <p><strong>Jane Smith</strong></p>
+                <p>Good value for the price. Had a few issues initially, but customer support was helpful. Overall, a satisfactory experience.</p>
+            </div>
+        </div>
+
+        <!-- Review 3 with overflow -->
+        <div class="review">
+            <img src="avatar3.jpg" alt="User Avatar">
+            <div class="review-content">
+                <p><strong>Alex Lee</strong></p>
+                <p>This product has a lot of features, but the setup was quite complicated. I spent hours trying to figure it out, and the instructions were confusing. Additionally, some features seem unnecessary and overly complex for the average user. I would recommend it only to those who are tech-savvy and patient enough to work through the setup process.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
