@@ -5,25 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Pole Vaulting Guide</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ff69b4; /* Hot Pink background */
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4169e1; /* Royal Blue */
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+        footer {
+            background-color: #4169e1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Pole Vaulting Gallery</h1>
+        <h1>Gallery</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="how-to.html">How to Vault</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="how-to.html">How to Vault</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="content">
-        <h2>Our Pole Vaulting Moments</h2>
-        <p>Check out some amazing moments captured during pole vaulting sessions.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YMgunFKwVeg?si=nvKy5FujtWNXJyho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/o_FnI0kCX7w?si=I0ESPva_NMsNfFKy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>Pole Vaulting Moments</h2>
+        <p>Explore our collection of amazing pole vaulting photos.</p>
+        <div class="gallery">
+            <img src="images/vault1.jpg" alt="Pole Vault Action Shot 1">
+            <img src="images/vault2.jpg" alt="Pole Vault Action Shot 2">
+            <img src="images/vault3.jpg" alt="Pole Vault Action Shot 3">
+            <img src="images/vault4.jpg" alt="Pole Vault Action Shot 4">
+            <img src="images/vault5.jpg" alt="Pole Vault Action Shot 5">
+            <img src="images/vault6.jpg" alt="Pole Vault Action Shot 6">
+        </div>
     </div>
 
     <footer>

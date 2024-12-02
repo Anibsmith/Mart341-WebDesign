@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #00539C;
+    background-color: #00539C; /* Royal Blue */
     color: white;
     text-align: center;
     padding: 1rem;
@@ -24,8 +24,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #FF69B4; /* Hot Pink */
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .content {
@@ -47,7 +52,7 @@ img {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #00539C;
+    background-color: #FF69B4; /* Hot Pink */
     color: white;
     position: relative;
     bottom: 0;
